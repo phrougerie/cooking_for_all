@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Cooking For All</string>
+    <string name="welcome">Bienvenue sur Cooking For All !</string>
 </resources>
