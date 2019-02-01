@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.android.support:loader:28.0.0@aar">
+    <CLASSES>
+      <root url="jar:///tmp/phrougerie/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/b7af81b7f561d8baf40b6634cb8afac8/jars/classes.jar!/" />
+      <root url="file:///tmp/phrougerie/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/b7af81b7f561d8baf40b6634cb8afac8/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
