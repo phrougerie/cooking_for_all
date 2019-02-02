@@ -3,6 +3,6 @@
     <string name="app_name">Cooking For All</string>
     <string name="welcome">Bienvenue sur Cooking For All !</string>
     <string name="listing">Regarder les listes</string>
-    <string name="addIngredient">Ajouter un nouvel recipe</string>
+    <string name="createRecipe">Créer une nouvel recette</string>
     <string name="searchRecipe">Chercher des recettes</string>
 </resources>

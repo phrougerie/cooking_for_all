@@ -2,6 +2,7 @@
     <string name="app_name">Cooking For All</string>
     <string name="welcome">Welcome to cooking Cooking For All !</string>
     <string name="listing">Go to lists</string>
-    <string name="addIngredient">Add a new recipe</string>
+    <string name="createRecipe">Create a new recipe</string>
     <string name="searchRecipe">Search for recipes</string>
+
 </resources>

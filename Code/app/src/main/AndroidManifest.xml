@@ -16,6 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".CreateRecipeActivity"
+           android:label="@string/searchRecipe"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.cookingforall.MainActivity"
+                />
+        </activity>
     </application>
 
 </manifest>
