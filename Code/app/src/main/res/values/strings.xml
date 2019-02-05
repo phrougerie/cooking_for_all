@@ -4,5 +4,8 @@
     <string name="listing">Go to lists</string>
     <string name="createRecipe">Create a new recipe</string>
     <string name="searchRecipe">Search for recipes</string>
+    <string name="namedRecipe">Enter a name for your recipe :</string>
+    <string name="validate">Validate</string>
+    <string name="title_activity_add_ingredients">AddIngredientsActivity</string>
 
 </resources>

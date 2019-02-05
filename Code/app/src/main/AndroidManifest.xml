@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,13 +17,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".CreateRecipeActivity"
-           android:label="@string/searchRecipe"
+        <activity
+            android:name=".CreateRecipeActivity"
+            android:label="@string/searchRecipe"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.cookingforall.MainActivity"
-                />
+                android:value="com.example.cookingforall.MainActivity" />
+        </activity>
+        <activity
+            android:name=".AddIngredientsActivity"
+            android:label="@string/title_activity_add_ingredients"
+            android:parentActivityName=".CreateRecipeActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.cookingforall.CreateRecipeActivity" />
         </activity>
     </application>
 
