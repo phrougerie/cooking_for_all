@@ -6,6 +6,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 
+import com.example.cookingforall.Modele.Ingredient;
+
+import java.util.ArrayList;
+
 public class CreateRecipeActivity extends AppCompatActivity {
 
     public static final String EXTRA_MESSAGE = "com.example.cookingforall";
@@ -18,7 +22,7 @@ public class CreateRecipeActivity extends AppCompatActivity {
 
     public void sendMessage(View view){
         Intent intent = new Intent(this, AddIngredientsActivity.class);
-        EditText editText = (EditText) findViewById(R.id.name);
+        EditText editText = findViewById(R.id.name);
         String message = editText.getText().toString();
         intent.putExtra(EXTRA_MESSAGE, message);
         startActivity(intent);

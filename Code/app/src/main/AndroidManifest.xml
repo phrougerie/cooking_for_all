@@ -19,7 +19,7 @@
         </activity>
         <activity
             android:name=".CreateRecipeActivity"
-            android:label="@string/searchRecipe"
+            android:label="@string/createRecipe"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -31,7 +31,7 @@
             android:parentActivityName=".CreateRecipeActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.cookingforall.CreateRecipeActivity" />
+                android:value=".CreateRecipeActivity" />
         </activity>
     </application>
 

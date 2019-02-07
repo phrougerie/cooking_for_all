@@ -6,6 +6,8 @@
     <string name="searchRecipe">Search for recipes</string>
     <string name="namedRecipe">Enter a name for your recipe :</string>
     <string name="validate">Validate</string>
-    <string name="title_activity_add_ingredients">AddIngredientsActivity</string>
+    <string name="title_activity_add_ingredients">Add  ingredients</string>
+    <string name="newIngred">Choose a new ingredient</string>
+    <string name="nameIngredient">Ingredient name</string>
 
 </resources>
