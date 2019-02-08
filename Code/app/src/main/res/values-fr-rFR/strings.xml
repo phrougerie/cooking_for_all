@@ -10,4 +10,5 @@
     <string name="title_activity_add_ingredients">Aouter des ingredients</string>
     <string name="newIngred">Choisir un nouvel ingredient</string>
     <string name="nameIngredient">Nom Ingredient</string>
+    <string name="numberQuantity">Quantité</string>
 </resources>

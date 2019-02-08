@@ -9,5 +9,6 @@
     <string name="title_activity_add_ingredients">Add  ingredients</string>
     <string name="newIngred">Choose a new ingredient</string>
     <string name="nameIngredient">Ingredient name</string>
+    <string name="numberQuantity">Quantity</string>
 
 </resources>

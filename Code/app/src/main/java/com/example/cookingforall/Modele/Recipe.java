@@ -10,7 +10,4 @@ public class Recipe {
     private ArrayList<Ingredient> ingredient;
     private ArrayList<String> steps;
     private ArrayList<Image> photos;
-
-
-
 }
