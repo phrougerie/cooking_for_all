@@ -108,8 +108,8 @@ public class AddPhotoAndActionsActivity extends ListActivity implements Activity
         lIngredients = findViewById(R.id.listIngredients);
         adapterIngredient = new IngredientAdapter(this, android.R.layout.simple_expandable_list_item_1, listIngredients);
         lIngredients.setAdapter(adapterIngredient);
-        if(savedInstance != null) {
-            SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
+        SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
+        if(savedInstance != null && prefs.getString(KEY_LIST, null)!=null) {
             Gson gson = new Gson();
             String json = prefs.getString(KEY_LIST, null);
             Type type = new TypeToken<ArrayList<Bitmap>>() {

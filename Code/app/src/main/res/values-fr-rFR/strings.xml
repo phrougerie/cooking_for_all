@@ -43,4 +43,5 @@
     <string name="load">La recette est en train d\'être sauvegardée veuillez patienter.</string>
     <string name="erorDocs">Erreur pour obtenir les documents.</string>
     <string name="createFail">Creation d\'utilisateur echouée.</string>
+    <string name="setSteps">Veuillez entrez les étapes de la recette:</string>
 </resources>

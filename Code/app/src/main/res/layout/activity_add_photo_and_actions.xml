@@ -21,10 +21,17 @@
         android:layout_width="match_parent"
         android:layout_height="205dp"/>
 
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/setSteps" />
+
     <EditText
         android:id="@+id/desc"
         android:layout_width="match_parent"
         android:layout_height="125dp" />
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
