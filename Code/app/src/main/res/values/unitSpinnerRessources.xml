@@ -1,2 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string-array name="unit_array">
+        <item>g</item>
+        <item>kg</item>
+        <item>l</item>
+        <item>ml</item>
+        <item>dl</item>
+        <item>""</item>
+
+    </string-array>
+</resources>

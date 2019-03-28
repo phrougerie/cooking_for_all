@@ -1,56 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".MainActivity">
-
+    android:orientation="vertical">
 
     <TextView
         android:id="@+id/title"
         android:layout_width="match_parent"
+        android:gravity="center"
         android:layout_height="23dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="80dp"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"
         android:text="@string/welcome" />
 
-    <Button
-        android:id="@+id/listing"
-        android:layout_width="match_parent"
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginBottom="8dp"
-        android:text="@string/listing" />
+        android:layout_centerInParent="true"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/listing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="10dp"
+            android:onClick="lookRecipe"
+            android:background="@drawable/btn_shape_round"
+            android:text="@string/listing" />
+
+        <Button
+            android:id="@+id/createRecipe"
+            android:padding="10dp"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_shape_round"
+            android:onClick="launchCreateRecipeActivity"
+            android:text="@string/createRecipe" />
+
+    </LinearLayout>
 
     <Button
-        android:id="@+id/createRecipe"
-        android:layout_width="match_parent"
-        android:layout_height="67dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginBottom="28dp"
-        android:onClick="launchCreateRecipeActivity"
-        android:text="@string/createRecipe" />
-
-    <Button
-        android:id="@+id/searchRecipe"
-        android:layout_width="match_parent"
+        android:id="@+id/connect"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginBottom="8dp"
-        android:text="@string/searchRecipe" />
+        android:background="@drawable/btn_shape_round"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="@dimen/fab_margin"
+        android:onClick="connect" />
 
 
-</LinearLayout>
+</RelativeLayout>

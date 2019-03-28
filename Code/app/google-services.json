@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "895491367396",
+    "firebase_url": "https://projectcooking-631ba.firebaseio.com",
+    "project_id": "projectcooking-631ba",
+    "storage_bucket": "projectcooking-631ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895491367396:android:4bf1ddb2a87c5155",
+        "android_client_info": {
+          "package_name": "com.roufaurie.cookingforall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "895491367396-mdtrughjkfeioc5qciits4cjnhhpt5po.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbGjOJjptQ1CrsqDxFayu7UEb0P8YG4B0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

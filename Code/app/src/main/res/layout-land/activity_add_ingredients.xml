@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".Activities.AddIngredientsActivity">
+
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:id="@+id/firstLayout"
+        android:layout_below="@id/name"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/nameIng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/nameIngredient"
+            android:inputType="textShortMessage"
+            android:layout_marginLeft="10dp"
+            android:maxLength="20" />
+
+        <Spinner
+            android:id="@+id/unitSpinner"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/quantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/numberQuantity"
+            android:inputType="number"
+            android:layout_marginLeft="10dp"
+            android:maxLength="6" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="addIngredient"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/btn_shape_round"
+            android:text="@string/validate" />
+
+    </LinearLayout>
+
+
+    <ListView
+        android:layout_below="@id/firstLayout"
+        android:id="@+id/listIngredients"
+        android:layout_height="140dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_below="@id/listIngredients"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next"
+        android:background="@drawable/btn_shape_round"
+        android:layout_marginBottom="5dp"
+        android:onClick="validateIng"/>
+
+</RelativeLayout>

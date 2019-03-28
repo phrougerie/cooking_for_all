@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="23dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="24dp"
+        android:text="@string/welcome" />
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/listing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="lookRecipe"
+            android:background="@drawable/btn_shape_round"
+            android:text="@string/listing" />
+
+        <Button
+            android:id="@+id/createRecipe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="launchCreateRecipeActivity"
+            android:background="@drawable/btn_shape_round"
+            android:text="@string/createRecipe" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/connect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/fab_margin"
+        android:background="@drawable/btn_shape_round"
+        android:onClick="connect" />
+
+
+</RelativeLayout>

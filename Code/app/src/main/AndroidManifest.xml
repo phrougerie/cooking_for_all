@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.cookingforall">
+    package="com.roufaurie.cookingforall">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -9,8 +17,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-        <activity android:name=".MainActivity">
+        <activity android:name="com.roufaurie.cookingforall.Activities.DisplayRecipesActivity"></activity>
+        <activity android:name="com.roufaurie.cookingforall.Activities.RegisterActivity" />
+        <activity android:name="com.roufaurie.cookingforall.Activities.LookListActivity" />
+        <activity android:name="com.roufaurie.cookingforall.Activities.ConnectActivity" />
+        <activity android:name="com.roufaurie.cookingforall.Activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -18,20 +29,28 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".CreateRecipeActivity"
+            android:name="com.roufaurie.cookingforall.Activities.CreateRecipeActivity"
             android:label="@string/createRecipe"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName="com.roufaurie.cookingforall.Activities.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.cookingforall.MainActivity" />
+                android:value="com.roufaurie.cookingforall.Activities.MainActivity" />
         </activity>
         <activity
-            android:name=".AddIngredientsActivity"
+            android:name="com.roufaurie.cookingforall.Activities.AddIngredientsActivity"
             android:label="@string/title_activity_add_ingredients"
-            android:parentActivityName=".CreateRecipeActivity">
+            android:parentActivityName="com.roufaurie.cookingforall.Activities.CreateRecipeActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".CreateRecipeActivity" />
+                android:value="com.roufaurie.cookingforall.Activities.CreateRecipeActivity" />
+        </activity>
+        <activity
+            android:name="com.roufaurie.cookingforall.Activities.AddPhotoAndActionsActivity"
+            android:label="@string/title_activity_add_ingredients"
+            android:parentActivityName="com.roufaurie.cookingforall.Activities.AddIngredientsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.roufaurie.cookingforall.Activities.AddIngredientsActivity" />
         </activity>
     </application>
 

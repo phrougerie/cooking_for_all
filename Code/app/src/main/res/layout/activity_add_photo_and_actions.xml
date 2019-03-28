@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activities.AddPhotoAndActionsActivity">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp"/>
+
+    <ListView
+        android:id="@+id/listIngredients"
+        android:layout_width="match_parent"
+        android:layout_height="205dp"/>
+
+    <EditText
+        android:id="@+id/desc"
+        android:layout_width="match_parent"
+        android:layout_height="125dp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/takePhoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="cameraOn"
+            android:textSize="10dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/btn_shape_round"
+            android:text="@string/takePicture" />
+
+        <Button
+            android:id="@+id/buttonSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="saveRecipe"
+            android:textSize="10dp"
+            android:layout_marginLeft="3dp"
+            android:background="@drawable/btn_shape_round"
+            android:text="@string/buttonSave"/>
+
+        <Button
+            android:id="@+id/searchPhoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="10dp"
+            android:layout_marginLeft="3dp"
+            android:text="@string/searchPhotos"
+            android:background="@drawable/btn_shape_round"
+            android:onClick="searchPhoto"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

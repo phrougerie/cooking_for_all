@@ -1,14 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Cooking For All</string>
     <string name="welcome">Welcome to cooking Cooking For All !</string>
     <string name="listing">Go to lists</string>
     <string name="createRecipe">Create a new recipe</string>
     <string name="searchRecipe">Search for recipes</string>
-    <string name="namedRecipe">Enter a name for your recipe :</string>
+    <string name="namedRecipe">Enter a name for your recipe</string>
     <string name="validate">Validate</string>
     <string name="title_activity_add_ingredients">Add  ingredients</string>
-    <string name="newIngred">Choose a new ingredient</string>
+    <string name="newIngred">Choose a new listIngredientts</string>
     <string name="nameIngredient">Ingredient name</string>
     <string name="numberQuantity">Quantity</string>
+    <string name="unit">unit</string>
+    <string name="next">Next</string>
+    <string name="takePicture">Take picture</string>
+    <string name="buttonSave">Save</string>
+    <string name="searchPhotos">Search picture</string>
+    <string name="connectButton">Connect</string>
+    <string name="logOutButton">Log out</string>
+    <string name="email">Enter your email</string>
+    <string name="password">Enter your password</string>
+    <string name="pseudo">Enter your pseudo</string>
+    <string name="newUser">Register</string>
+    <string name="required">Required</string>
+    <string name="advertPermission">This app needs Camera and Storage permissions to work correctly.</string>
+    <string name="grantPermission">Yes, Grant permissions</string>
+    <string name="noPermission">No, exit app</string>
+    <string name="deniedSome">You have denied some permissions. Allow all permissions at [settings] > [Permissions]</string>
+    <string name="goSettings">Go to settings.</string>
+    <string name="passwordVerif">Retype your password</string>
+    <string name="wrongPassword">Passwords are different</string>
+    <string name="errorPassword">Password error (8 characteres minimum)</string>
+    <string name="registerSuccess">Welcome !</string>
+    <string name="signOut">Sign out</string>
+    <string name="signInSuccess">Sign in</string>
+    <string name="signInError">Error, wrong email or password</string>
+    <string name="emptyRecipeField">Please enter a name</string>
+    <string name="validateListIngredients">Please select at least one listIngredientts</string>
+    <string name="noIngredientOrQuantity">Please select a name and a quantity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="notConnectect">You are not connected to the net. Please connect to continue.</string>
+    <string name="noConnectImage">Please connect to the net to see the images</string>
+    <string name="load">The recipe is saving. Please wait.</string>
+    <string name="erorDocs">Error getting documents</string>
+    <string name="createFail">CreateUser Failed</string>
 
 </resources>

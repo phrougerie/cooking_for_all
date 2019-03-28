@@ -1,0 +1,71 @@
+{
+  "project_info": {
+    "project_number": "895491367396",
+    "firebase_url": "https://projectcooking-631ba.firebaseio.com",
+    "project_id": "projectcooking-631ba",
+    "storage_bucket": "projectcooking-631ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895491367396:android:c7971b80e146fcf8",
+        "android_client_info": {
+          "package_name": "com.roufaurie.cookingforall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "895491367396-289b8lhm6k8lhs2q8ticm7m7fvnppleu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.roufaurie.cookingforall",
+            "certificate_hash": "86ae936f32f974a143b02e58a224be0ab3725d6b"
+          }
+        },
+        {
+          "client_id": "895491367396-9035a89l9en9tr3actrfougfipuebp3b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.roufaurie.cookingforall",
+            "certificate_hash": "7ac078e40974e11b1ecca8e2529ea837fbdd66f2"
+          }
+        },
+        {
+          "client_id": "895491367396-41ld5srpmskb23hakqe6gmk7vfqis7sc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.roufaurie.cookingforall",
+            "certificate_hash": "48fd303478d8c3dff07fa78ad69a21bfcb2caf1e"
+          }
+        },
+        {
+          "client_id": "895491367396-mdtrughjkfeioc5qciits4cjnhhpt5po.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbGjOJjptQ1CrsqDxFayu7UEb0P8YG4B0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "895491367396-mdtrughjkfeioc5qciits4cjnhhpt5po.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
